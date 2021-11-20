@@ -43,10 +43,21 @@ li{
     height: 50%;
 }
 .upper_body.active{
-    /* top: 10%; */
     transition-duration: 0.5s;
     transform: translate(30%,20%);
-    /* transform: translateY(10%); */
     height: 70%;
     box-shadow: 0 5px 20px 1px rgb(12, 12, 12);
+}
+h1{
+    font-size: 140px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    transform: translateY(180%);
+    transition-duration: 0.5s;
+}
+.upper_body.active h1{
+    font-size: 98px;
+    transition-duration: 0.5s;
 }
